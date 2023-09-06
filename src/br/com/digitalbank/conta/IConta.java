@@ -1,6 +1,8 @@
+package br.com.digitalbank.conta;
+
 public interface IConta {
     void sacar(double valor);
     void depositar(double valor);
-    void transferir(double valor, Conta contaDestino);
+    void transferir(double valor, ContaBancaria contaDestino);
     void imprimirExtrato();
 }
